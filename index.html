@@ -718,13 +718,17 @@ In OpenSpace there are no leaders, no followers, definitely no talking-heads - o
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <p>It would be great to list your company among our sponsors! Please contact us at <a href="mailto:socrates-it@googlegroups.com">socrates-it@googlegroups.com</a> and we’ll send you the sponsorship prospect.</p>
+                <p>It would be great to list your company among our sponsors! Please contact us at <a id="email" href="none">none</a> and we’ll send you the sponsorship prospect.</p>
             </div>
         </div>
         <div class="row">
             
         </div>
     </div>
+    <script>
+        document.getElementById("email").href = "mailto:socrates-it@googlegroups.com";
+        document.getElementById("email").innerHTML = "socrates-it@googlegroups.com";
+    </script>
 </section>
 
         
